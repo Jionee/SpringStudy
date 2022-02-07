@@ -9,6 +9,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 @Entity
+//test
 @Table(name="orders") //테이블 이름 orders로 설정
 @Getter @Setter
 public class Order {
