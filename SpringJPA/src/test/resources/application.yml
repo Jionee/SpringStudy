@@ -1,0 +1,20 @@
+spring:
+  #스프링부트는 별도의 설정이 없으면 인메모리모드로 돌려버림 -> 밑에꺼 다 필요 없음
+#  datasource:
+#    url: jdbc:h2:mem:test #인메모리모드
+#    username: sa
+#    password:
+#    driver-class-name: org.h2.Driver
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: create-drop #실행 시점에 table다 지우고 새로 생성, 마지막에 drop해서 깔끔하게 자원정리
+#    properties:
+#      hibernate:
+#        #show_sql: true
+#        format_sql: true
+
+logging:
+  level:
+    org.hibernate.SQL: debug
+    org.hibernate.type: trace
