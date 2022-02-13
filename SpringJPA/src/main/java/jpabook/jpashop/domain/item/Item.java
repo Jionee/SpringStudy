@@ -47,4 +47,15 @@ public abstract class Item {
         }
         this.stockQuantity = restStock;
     }
+
+    @Override
+    public String toString() {
+        return "Item{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", price=" + price +
+                ", stockQuantity=" + stockQuantity +
+                ", categories=" + categories +
+                '}';
+    }
 }
